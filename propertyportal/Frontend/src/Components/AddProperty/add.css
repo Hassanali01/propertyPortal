@@ -1,0 +1,56 @@
+.select{
+    width:200px
+}
+.tex{
+    resize: none;
+}
+.ff{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+@media screen and (max-width: 998px) {
+    .ff{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      
+    }
+    .select{
+        width:300px ;
+    }
+    .dd {
+        width: 300px;
+       
+    }
+    .res{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-items:center ;
+    }
+  }
+@media screen and (max-width: 480px) {
+    .ff{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      
+    }
+    .select{
+        width:300px ;
+    }
+    .dd {
+        width: 300px;
+       
+    }
+    .res{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-items:center ;
+    }
+  }
